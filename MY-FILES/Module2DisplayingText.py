@@ -1,3 +1,2 @@
-print('Cats sometimes enjoy to eat grasses')
-print('Eating grasses however can often result in vomiting')
-print("Generally this is temporary")
+print("There once was a movie star icon \nwho preferred to sleep with the light on.")
+print("They learned how to cose \na device that sure glowed \nand it lit up the night using Python!")
