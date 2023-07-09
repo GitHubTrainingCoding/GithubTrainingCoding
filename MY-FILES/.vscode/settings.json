@@ -1,5 +1,5 @@
 {
     "python.analysis.typeCheckingMode": "off",
-    "powershell.integratedConsole.suppressStartupWarning": true
+    "powershell.externalTerminal.suppressStartupWarning": true
 
 }
