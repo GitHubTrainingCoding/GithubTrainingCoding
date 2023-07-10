@@ -17,13 +17,14 @@
 # print(message.upper()) 
 # print(message.swapcase())
 # print(name.capitalize())
+# print(variable.title()) - capitalizes each word within a string of many words
 #`` STRING FUNCTIONS to modify case of user's input to variable [message]
 
 #challenge: write a program that allows a user to modify a story.
 
 print("\n\n\nLet's read a story together!")
 print("\nTHE LAZY TEACHER \n------------------------")
-print("\nThere was once a lazy teacher called Guitar. \nFor his class warm-ups he sang songs to the students . \nHe only knew three songs however; Wheels On The Bus, Baby Shark, and If That Ain't Country. \nAfter eight weeks of rotating through these same three songs, not only were the students bored, \nbut his co-workers were extremely irritated!")
+print("\nThere was once a lazy teacher called Guitar. \nFor his class warm-ups he sang songs to the students. \nHe only knew three songs however; Wheels On The Bus, Baby Shark, and If That Ain't Country. \nAfter eight weeks of rotating through these same three songs, not only were the students bored, \nbut his co-workers were extremely irritated!")
 print("\nLet's change some elements of that story shall we? \n")
 
 t = "Guitar"
@@ -32,7 +33,7 @@ print("\nOK, so we're changing the teacher's name to be " + t.capitalize() + "."
 
 s = "If That Ain't Country"
 s = input("\nGive me a new name for the third song...")
-print("\nOK, so we're changing third song to be " + s + ".")
+print("\nOK, so we're changing third song to be " + s.title() + ".")
 
 e = "irritated"
 e = input("\nChoose an alternative emotion that " + t.capitalize() + "'s co-workers will feel...")
@@ -41,7 +42,7 @@ print("\nOK, so we're changing the co-workers' emotion to be " + e + ".\n")
 x = input("Hit ENTER to see your version of the story...\n")
 
 print("\nTHE LAZY TEACHER \n------------------------")
-print("\nThere was once a lazy teacher called " + t.capitalize() + ". \nFor his class warm-ups he sang songs to the students . \nHe only knew three songs however; Wheels On The Bus, Baby Shark, and " + s  + ". \nAfter eight weeks of rotating through these same three songs, not only were the students bored, \nbut his co-workers were extremely " + e + "!")
+print("\nThere was once a lazy teacher called " + t.capitalize() + ". \nFor his class warm-ups he sang songs to the students. \nHe only knew three songs however; Wheels On The Bus, Baby Shark, and " + s.title()  + ". \nAfter eight weeks of rotating through these same three songs, not only were the students bored, \nbut his co-workers were extremely " + e + "!")
 
 
 
