@@ -28,20 +28,20 @@ print("\nLet's change some elements of that story shall we? \n")
 
 t = "Guitar"
 t = input("Give me a new name for the teacher...")
-print("\nOK, so we're changing the teacher's name to be " + t.capitalize + ".")
+print("\nOK, so we're changing the teacher's name to be " + t.capitalize() + ".")
 
 s = "If That Ain't Country"
 s = input("\nGive me a new name for the third song...")
 print("\nOK, so we're changing third song to be " + s + ".")
 
 e = "irritated"
-e = input("\nChoose an alternative emotion that " + t.capitalize + "'s co-workers will feel...")
+e = input("\nChoose an alternative emotion that " + t.capitalize() + "'s co-workers will feel...")
 print("\nOK, so we're changing the co-workers' emotion to be " + e + ".\n")
 
 x = input("Hit ENTER to see your version of the story...\n")
 
 print("\nTHE LAZY TEACHER \n------------------------")
-print("\nThere was once a lazy teacher called " + t.capitalize + ". \nFor his class warm-ups he sang songs to the students . \nHe only knew three songs however; Wheels On The Bus, Baby Shark, and " + s  + ". \nAfter eight weeks of rotating through these same three songs, not only were the students bored, \nbut his co-workers were extremely " + e + "!")
+print("\nThere was once a lazy teacher called " + t.capitalize() + ". \nFor his class warm-ups he sang songs to the students . \nHe only knew three songs however; Wheels On The Bus, Baby Shark, and " + s  + ". \nAfter eight weeks of rotating through these same three songs, not only were the students bored, \nbut his co-workers were extremely " + e + "!")
 
 
 
